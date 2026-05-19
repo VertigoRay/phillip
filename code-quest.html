@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Phillip Code Quest</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Quicksand:wght@400;600;700&display=swap');
+    * { box-sizing: border-box; }
+    body { margin: 0; font-family: Quicksand, sans-serif; background: linear-gradient(180deg, #e8f5e9, #e3f2fd); color: #143d18; }
+    .wrap { max-width: 860px; margin: auto; padding: 24px; }
+    .hero, .card { background: white; border-radius: 22px; padding: 20px; margin: 16px 0; box-shadow: 0 7px 24px rgba(46,125,50,.14); }
+    h1 { font-family: Pacifico, cursive; color: #2e7d32; margin: 8px 0; }
+    h2 { margin-bottom: 8px; }
+    .badge { display: inline-block; background: #2e7d32; color: white; border-radius: 999px; padding: 6px 14px; font-weight: 700; }
+    .quest-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); gap: 14px; }
+    .quest { border-left: 8px solid #66bb6a; background: #f7fff7; border-radius: 16px; padding: 16px; }
+    .quest h3 { margin-top: 0; color: #1b5e20; }
+    code { background: #eef7ee; border-radius: 8px; padding: 2px 6px; }
+    .examples { display: grid; grid-template-columns: repeat(auto-fit, minmax(190px, 1fr)); gap: 10px; padding: 0; list-style: none; }
+    .examples li { background: #eef7ee; border-radius: 14px; padding: 12px; font-weight: 700; }
+    .mission { border-left: 8px solid #43a047; }
+    a { color: #1b5e20; font-weight: 700; }
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <p><a href="./">&larr; Back to Phillip's Learning Castle</a></p>
+    <section class="hero">
+      <span class="badge">Always-on Subject</span>
+      <h1>Code Quest: Robot Instructions</h1>
+      <p><strong>Start here:</strong> choose one quest level, test your commands with a grown-up robot, then write one win in the Coder Log.</p>
+      <p>Programming skill: give clear step-by-step instructions, test them, and improve them like a real coder.</p>
+    </section>
+
+    <section class="card mission">
+      <h2>Command Toolkit</h2>
+      <p>A good command tells the robot exactly what to do. Try commands like these before writing your own:</p>
+      <ul class="examples">
+        <li><code>move forward 3 inches</code></li>
+        <li><code>turn right</code></li>
+        <li><code>stop at the book</code></li>
+        <li><code>repeat 4 times</code></li>
+      </ul>
+    </section>
+
+    <section class="card">
+      <h2>Quest Ladder</h2>
+      <div class="quest-grid">
+        <div class="quest">
+          <h3>1. Sequencing</h3>
+          <p>Pick a toy or pencil. Write 5 commands that move it from one side of the table to the other.</p>
+          <p><strong>Coder XP:</strong> +25 for commands in the right order.</p>
+        </div>
+        <div class="quest">
+          <h3>2. Debugging</h3>
+          <p>Ask someone to follow your commands exactly. If the toy goes the wrong way, fix one command and test again.</p>
+          <p><strong>Coder XP:</strong> +50 for finding and fixing a bug.</p>
+        </div>
+        <div class="quest">
+          <h3>3. Loops</h3>
+          <p>Look for a command you use again and again. Replace it with <code>repeat</code>, like <code>repeat move forward 4 times</code>.</p>
+          <p><strong>Coder XP:</strong> +50 for making your program shorter.</p>
+        </div>
+        <div class="quest">
+          <h3>4. Conditionals</h3>
+          <p>Add an if-then rule: <code>if you reach the edge, then stop</code> or <code>if you hit a block, then turn right</code>.</p>
+          <p><strong>Coder XP:</strong> +75 for helping the robot make a choice.</p>
+        </div>
+        <div class="quest">
+          <h3>5. Weekly Mini-Build</h3>
+          <p>Each week, build a tiny game, maze, or drawing challenge. Save your best commands and one bug you fixed.</p>
+          <p><strong>Coder XP:</strong> +100 for finishing the weekly build.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="card">
+      <h2>Coder Log</h2>
+      <p>Save your progress each week so Code Quest becomes a standing subject.</p>
+      <ul>
+        <li><strong>Date:</strong> ____________________</li>
+        <li><strong>Build name:</strong> ____________________</li>
+        <li><strong>Best command:</strong> ____________________</li>
+        <li><strong>Bug I fixed:</strong> ____________________</li>
+        <li><strong>Next unlock:</strong> sequencing / debugging / loops / conditionals / mini-build</li>
+      </ul>
+    </section>
+
+    <section class="card">
+      <h2>Big Idea</h2>
+      <p>A computer follows exactly what you say. Great programmers make instructions clear, test them, fix bugs, and reuse patterns.</p>
+    </section>
+  </main>
+</body>
+</html>
