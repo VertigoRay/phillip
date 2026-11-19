@@ -8,3 +8,7 @@
 # 2026-08-16
 
 - Added a spoiler-free *Restart* reading quest for 5th Grade English, with the confirmed due date, vocabulary, checklist, and locally saved prediction.
+
+# 2026-09-02
+
+- Fixed reading-quest save confirmation by selecting its status element explicitly; successful saves now display and announce Saved!.
